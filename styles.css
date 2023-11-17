@@ -1,15 +1,6 @@
-/* Reset default margin and padding */
-body, h1, h2, p, ul {
-    margin: 0;
-    padding: 0;
-}
-
-/* Basic styling */
 body {
+    margin: 0;
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
 }
 
 .container {
@@ -18,40 +9,53 @@ body {
     overflow: hidden;
 }
 
-header {
-    background: #333;
+/* Header styles */
+.header {
+    background-color: #333;
     color: #fff;
-    padding-top: 20px;
-    min-height: 70px;
-    border-bottom: 2px solid #eaeaea;
+    padding: 20px 0;
+    text-align: center;
 }
 
-header h1 {
-    padding: 0 20px;
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-nav ul {
-    float: right;
-    list-style: none;
-}
-
-nav ul li {
+.header ul li {
     display: inline;
     margin-right: 20px;
 }
 
-nav ul li a {
-    color: #fff;
+.header ul li a {
     text-decoration: none;
+    color: #fff;
 }
 
-main {
+/* Main content styles */
+.main-content {
     padding: 20px 0;
+    text-align: center;
 }
 
-footer {
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #fff;
     text-align: center;
     padding: 20px 0;
-    background: #333;
-    color: #fff;
 }
+
+.footer-contact {
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Private page background */
+.private-page-bg {
+    background-color: #f4f4f4;
+}
+
