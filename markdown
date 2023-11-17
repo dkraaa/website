@@ -5,3 +5,5 @@
         - index.html
         - about.html
         - contact.html
+    - css/
+        - styles.css
