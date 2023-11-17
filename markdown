@@ -1,0 +1,7 @@
+- website_directory/
+    - home/
+        - private_page.html
+    - public/
+        - index.html
+        - about.html
+        - contact.html
